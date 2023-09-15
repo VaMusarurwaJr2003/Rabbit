@@ -1,0 +1,51 @@
+.datatable {
+    height: 500px;
+    padding: 20px;
+
+    .cellAction {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        font-size: 12px;
+
+        .viewButton {
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: #1a87ec;
+            border: 1px dotted #62b4ff;
+            cursor: pointer;
+
+            &:hover {
+                color: black;
+
+            }
+        }
+
+        .deleteButton {
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: crimson;
+            border: 1px dotted rgba(220, 20, 60, 0.6);
+            cursor: pointer;
+
+            &:hover {
+                color: black;
+
+            }
+        }
+    }
+
+    .btnadd {
+        background-color: #62b4ff;
+        color: white;
+        border-radius: 5px;
+        font-size: 10px;
+
+
+        &:hover {
+            background-color: #1a87ec;
+            color: black;
+
+        }
+    }
+}

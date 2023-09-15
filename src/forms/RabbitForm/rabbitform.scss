@@ -1,0 +1,20 @@
+.container {
+
+    .text {
+        font-size: 10px;
+    }
+
+    .btnadd {
+        background-color: #62b4ff;
+        color: white;
+        border-radius: 5px;
+        font-size: 10px;
+
+
+        &:hover {
+            background-color: #1a87ec;
+            color: black;
+
+        }
+    }
+}

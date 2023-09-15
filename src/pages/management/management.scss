@@ -1,0 +1,13 @@
+.management {
+    display: flex;
+
+    .managementContainer {
+        flex: 6;
+
+        .manages {
+            display: flex;
+            padding: 20px;
+            gap: 10px;
+        }
+    }
+}
